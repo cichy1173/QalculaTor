@@ -29,5 +29,6 @@ private slots:
     void BinaryOperation_pressed();
 
     void on_actionAbout_triggered();
+    void on_actionBMI_Calc_triggered();
 };
 #endif // MAINWINDOW_H

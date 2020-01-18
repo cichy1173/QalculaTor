@@ -3,6 +3,7 @@
 #include <QDebug>
 #include <math.h>
 #include "aboutwindow.h"
+#include "bmicalc.h"
 
 double firstNumber;
 bool isTypingSecondNumber = false;
@@ -208,4 +209,11 @@ void MainWindow::on_actionAbout_triggered()
     AboutWindow mAbout;
     mAbout.setModal(true);
     mAbout.exec();
+}
+
+void MainWindow::on_actionBMI_Calc_triggered()
+{
+    BMICalc mBMI;
+    mBMI.setModal(true);
+    mBMI.exec();
 }

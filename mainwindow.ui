@@ -414,6 +414,7 @@ color: rgb(243, 243, 243);</string>
     <property name="title">
      <string>Extras</string>
     </property>
+    <addaction name="actionBMI_Calc"/>
    </widget>
    <widget class="QMenu" name="menuHelp">
     <property name="title">
@@ -427,6 +428,11 @@ color: rgb(243, 243, 243);</string>
   <action name="actionAbout">
    <property name="text">
     <string>About</string>
+   </property>
+  </action>
+  <action name="actionBMI_Calc">
+   <property name="text">
+    <string>BMI Calc</string>
    </property>
   </action>
  </widget>

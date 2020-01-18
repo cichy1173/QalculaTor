@@ -17,15 +17,18 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     aboutwindow.cpp \
+    bmicalc.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
     aboutwindow.h \
+    bmicalc.h \
     mainwindow.h
 
 FORMS += \
     aboutwindow.ui \
+    bmicalc.ui \
     mainwindow.ui
 
 # Default rules for deployment.
