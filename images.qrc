@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/1024px-GNOME_Calculator_icon_2018.svg.png</file>
+        <file>images/GNOME_CALC_mini.png</file>
+    </qresource>
+</RCC>
