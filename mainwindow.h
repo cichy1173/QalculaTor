@@ -2,7 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-
+#include <metricswindow.h>
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -17,6 +17,7 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    MetricsWindow *mDialog;
 
 private slots:
     void digitPressed();
@@ -30,5 +31,7 @@ private slots:
 
     void on_actionAbout_triggered();
     void on_actionBMI_Calc_triggered();
+    void on_actionMetrics_triggered();
+    void on_actionTemperature_triggered();
 };
 #endif // MAINWINDOW_H

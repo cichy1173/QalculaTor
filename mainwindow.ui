@@ -433,6 +433,8 @@ color: rgb(243, 243, 243);</string>
      <string>Extras</string>
     </property>
     <addaction name="actionBMI_Calc"/>
+    <addaction name="actionMetrics"/>
+    <addaction name="actionTemperature"/>
    </widget>
    <widget class="QMenu" name="menuHelp">
     <property name="title">
@@ -457,6 +459,22 @@ color: rgb(243, 243, 243);</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+B</string>
+   </property>
+  </action>
+  <action name="actionMetrics">
+   <property name="text">
+    <string>Metrics</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+M</string>
+   </property>
+  </action>
+  <action name="actionTemperature">
+   <property name="text">
+    <string>Temperature</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+T</string>
    </property>
   </action>
  </widget>

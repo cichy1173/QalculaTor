@@ -19,17 +19,23 @@ SOURCES += \
     aboutwindow.cpp \
     bmicalc.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    metricswindow.cpp \
+    temperaturewindow.cpp
 
 HEADERS += \
     aboutwindow.h \
     bmicalc.h \
-    mainwindow.h
+    mainwindow.h \
+    metricswindow.h \
+    temperaturewindow.h
 
 FORMS += \
     aboutwindow.ui \
     bmicalc.ui \
-    mainwindow.ui
+    mainwindow.ui \
+    metricswindow.ui \
+    temperaturewindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

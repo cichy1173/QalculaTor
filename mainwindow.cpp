@@ -4,6 +4,8 @@
 #include <math.h>
 #include "aboutwindow.h"
 #include "bmicalc.h"
+#include "metricswindow.h"
+#include "temperaturewindow.h"
 
 double firstNumber;
 bool isTypingSecondNumber = false;
@@ -216,4 +218,18 @@ void MainWindow::on_actionBMI_Calc_triggered()
     BMICalc mBMI;
     mBMI.setModal(true);
     mBMI.exec();
+}
+
+void MainWindow::on_actionMetrics_triggered()
+{
+    mDialog = new MetricsWindow(this);
+    mDialog -> show();
+
+}
+
+void MainWindow::on_actionTemperature_triggered()
+{
+    TemperatureWindow mAbout;
+    mAbout.setModal(true);
+    mAbout.exec();
 }
