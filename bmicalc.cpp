@@ -17,6 +17,7 @@ BMICalc::~BMICalc()
 void BMICalc::on_CheckBMIButton_clicked()
 {
     //bmi= (weight in kilograms) divided by (squared height in metres)
+;
 
     double usersBMI, usersWeight, usersHeight;
     usersWeight = ui->weightLineEdit->text().toDouble();
