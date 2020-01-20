@@ -176,7 +176,7 @@ void MainWindow::on_resButton_released()
 
     else if(ui->sqrtButton->isChecked())
     {
-        if (firstNumber < 1)
+        if (firstNumber < 0)
         {
             ui->display->setText("impossible action");
         }
