@@ -435,6 +435,7 @@ color: rgb(243, 243, 243);</string>
     <addaction name="actionBMI_Calc"/>
     <addaction name="actionMetrics"/>
     <addaction name="actionTemperature"/>
+    <addaction name="actionExit"/>
    </widget>
    <widget class="QMenu" name="menuHelp">
     <property name="title">
@@ -475,6 +476,14 @@ color: rgb(243, 243, 243);</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+T</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+X</string>
    </property>
   </action>
  </widget>

@@ -233,3 +233,8 @@ void MainWindow::on_actionTemperature_triggered()
     mAbout.setModal(true);
     mAbout.exec();
 }
+
+void MainWindow::on_actionExit_triggered()
+{
+    exit(EXIT_FAILURE);
+}

@@ -33,5 +33,6 @@ private slots:
     void on_actionBMI_Calc_triggered();
     void on_actionMetrics_triggered();
     void on_actionTemperature_triggered();
+    void on_actionExit_triggered();
 };
 #endif // MAINWINDOW_H
